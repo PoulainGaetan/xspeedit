@@ -1,2 +1,0 @@
-# xspeedit
-VSCT xspeedit
