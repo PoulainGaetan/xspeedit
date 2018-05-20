@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>XspeedIt</groupId>
-	<artifactId>enballageColis</artifactId>
+	<artifactId>emballageColis</artifactId>
 	<packaging>jar</packaging>
 	<version>0.1.0.BUILD-SNAPSHOT</version>
-	<name>enballageColis</name>
+	<name>emballageColis</name>
 	<properties>
 		<slf4j.version>1.6.1</slf4j.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
