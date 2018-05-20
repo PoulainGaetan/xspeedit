@@ -1,5 +1,10 @@
 package sample.vsct.service;
 
+/**
+ * Permet d'emballer des colis dans des cartons
+ * @author Gaetan
+ *
+ */
 public interface EmballageService {
 
 	/**

@@ -14,6 +14,11 @@ import org.apache.log4j.Logger;
 
 import sample.vsct.exception.TailleColisException;
 
+/**
+ * Permet d'emballer des colis dans des cartons
+ * @author Gaetan
+ *
+ */
 public class EmballageServiceImpl implements EmballageService {
 	public static final Integer TAILLE_CARTON_MAX = 10;
 	public static final Integer TAILLE_COLIS_MAX = 9;
@@ -22,6 +27,10 @@ public class EmballageServiceImpl implements EmballageService {
 	final static Logger logger = Logger.getLogger(EmballageServiceImpl.class);
 
 	@Override
+	/*
+	 * (non-Javadoc)
+	 * @see sample.vsct.service.EmballageService#emballerCartons(java.lang.String, boolean)
+	 */
 	public String emballerCartons(String entreeTaillesColis, boolean affichageOptimisee) {
 		logger.debug("Début de l'exécution de la méthode emballerCartons");
 		Long dateDebutMethode = new Date().getTime();

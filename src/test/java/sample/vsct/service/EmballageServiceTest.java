@@ -9,6 +9,11 @@ import org.junit.Test;
 
 import sample.vsct.exception.TailleColisException;
 
+/**
+ * Classe de test pour EmballageService
+ * @author Gaetan
+ *
+ */
 public class EmballageServiceTest {
 
 	// Normalement, on fait ici de l'IoC avec Spring Core par exemple.
